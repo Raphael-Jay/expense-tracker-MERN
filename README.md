@@ -41,3 +41,7 @@ Expense Tracker - MERN stack
 config/db.js
 
 - connect database thru mongoose
+
+create a model
+
+- create schema
