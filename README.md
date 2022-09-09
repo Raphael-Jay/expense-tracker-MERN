@@ -13,5 +13,8 @@ Expense Tracker - MERN stack
   - morgan - a logger
 
 - npm i -D nodemon concurrently
+
   - nodemon - to constantly run the server
   - concurrently - runs the backend on a port 5000 and frontend to port 3000 simultaneously
+
+- routes
