@@ -37,3 +37,7 @@ Expense Tracker - MERN stack
     - connect to application
     - copy connection string
       - paste in config.env
+
+config/db.js
+
+- connect database thru mongoose
