@@ -54,9 +54,18 @@ Expense Tracker - MERN stack
   - Postman - GET http://localhost:5000/api/v1/transactions
 
 - Add transaction
+
   - Postman - POST http://localhost:5000/api/v1/transactions
+  - 400 user error
     - Body -> raw -> JSON
       {
       "text": "Payment",
       "amount": 500
       }
+
+- Delete transaction
+  - Postman - DELETE http://localhost:5000/api/v1/transactions/123
+  - 404 error not found
+    - copy the id
+    - from mongodb collection
+    - paste at the end of the link
