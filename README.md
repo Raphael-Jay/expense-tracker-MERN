@@ -28,3 +28,12 @@ Expense Tracker - MERN stack
 - setup add and delete transactions
 - Postman - POST http://localhost:5000/api/v1/transactions
 - Postman - DELETE http://localhost:5000/api/v1/transactions/123
+
+- Create database mongoDB.com
+  - create cluster
+  - database name - expensetracker
+  - collections name - transactions
+  - then CONNECT - eckzen / Bernardo\*\*\*\*
+    - connect to application
+    - copy connection string
+      - paste in config.env
