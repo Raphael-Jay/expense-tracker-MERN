@@ -18,3 +18,4 @@ Expense Tracker - MERN stack
   - concurrently - runs the backend on a port 5000 and frontend to port 3000 simultaneously
 
 - routes
+  - Postman - GET http://localhost:5000/api/v1/transactions
