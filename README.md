@@ -64,8 +64,12 @@ Expense Tracker - MERN stack
       }
 
 - Delete transaction
+
   - Postman - DELETE http://localhost:5000/api/v1/transactions/123
   - 404 error not found
     - copy the id
     - from mongodb collection
     - paste at the end of the link
+
+- Run client and backend at the same time
+  - add "proxy": "http://localhost:5000" to package.json client
