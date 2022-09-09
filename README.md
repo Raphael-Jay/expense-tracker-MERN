@@ -30,6 +30,7 @@ Expense Tracker - MERN stack
 - Postman - DELETE http://localhost:5000/api/v1/transactions/123
 
 - Create database mongoDB.com
+
   - create cluster
   - database name - expensetracker
   - collections name - transactions
@@ -38,10 +39,24 @@ Expense Tracker - MERN stack
     - copy connection string
       - paste in config.env
 
-config/db.js
+- config/db.js
 
-- connect database thru mongoose
+  - connect database thru mongoose
 
-create a model
+- create a model
 
-- create schema
+  - create schema
+
+- controllers
+
+  - get transaction
+    - try / catch
+  - Postman - GET http://localhost:5000/api/v1/transactions
+
+- Add transaction
+  - Postman - POST http://localhost:5000/api/v1/transactions
+    - Body -> raw -> JSON
+      {
+      "text": "Payment",
+      "amount": 500
+      }
