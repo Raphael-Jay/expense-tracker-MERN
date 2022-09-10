@@ -105,4 +105,8 @@ Expense Tracker - MERN stack
     - any http request use useEffect
 
 - Transaction component
+
   - change id to \_id
+
+- GlobalState
+  - deleteTransaction thru server
