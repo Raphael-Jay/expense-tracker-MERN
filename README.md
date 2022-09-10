@@ -97,3 +97,8 @@ Expense Tracker - MERN stack
   - swtich place `transactions: [...state.transactions, action.payload]`
 
 - add error, loading, getTransactions to GlobalContext.Provider
+
+- TransactionsList
+  - add getTransactions
+  - add in useEffect
+    - any http request use useEffect
