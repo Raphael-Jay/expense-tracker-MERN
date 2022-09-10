@@ -84,7 +84,13 @@ Expense Tracker - MERN stack
     - back to server
 
 - cd client/src/context/GlobalState
+
   - integrate API
   - run new action to fetch to the backend
   - getTransactions()
   - add new states
+
+- AppReducer
+  - add GET_TRANSACTIONS
+  - add TRANSACTION_ERROR
+  - swtich place `transactions: [...state.transactions, action.payload]`
