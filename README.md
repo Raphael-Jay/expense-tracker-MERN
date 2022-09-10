@@ -91,6 +91,9 @@ Expense Tracker - MERN stack
   - add new states
 
 - AppReducer
+
   - add GET_TRANSACTIONS
   - add TRANSACTION_ERROR
   - swtich place `transactions: [...state.transactions, action.payload]`
+
+- add error, loading, getTransactions to GlobalContext.Provider
