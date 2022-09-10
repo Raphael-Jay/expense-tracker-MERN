@@ -99,6 +99,10 @@ Expense Tracker - MERN stack
 - add error, loading, getTransactions to GlobalContext.Provider
 
 - TransactionsList
+
   - add getTransactions
   - add in useEffect
     - any http request use useEffect
+
+- Transaction component
+  - change id to \_id
