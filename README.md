@@ -72,4 +72,19 @@ Expense Tracker - MERN stack
     - paste at the end of the link
 
 - Run client and backend at the same time
+
   - add "proxy": "http://localhost:5000" to package.json client
+
+- Integrate the backend to frontend
+
+  - axios
+  - cd client
+    - npm i axios
+  - cd ..
+    - back to server
+
+- cd client/src/context/GlobalState
+  - integrate API
+  - run new action to fetch to the backend
+  - getTransactions()
+  - add new states
