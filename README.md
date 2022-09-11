@@ -159,10 +159,15 @@ if(process.env.NODE_ENV === 'production') {
 }
 ```
 
-    - go to config.env
-      - set NODE_ENV=production
-    - then run for production
-      - npm start
-    - view from localhost:5000
+- go to config.env
+  - set NODE_ENV=production
+- then run for production
+  - npm start
+  - view from localhost:5000
 
-### Note: for vite build client/dist
+###### Note: vite build folder client/dist
+
+Set to development
+
+- from config.env
+  - NODE_ENV=development
