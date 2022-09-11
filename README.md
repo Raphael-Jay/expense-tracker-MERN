@@ -131,3 +131,12 @@ export default defineConfig({
   plugins: [react()],
 })
 ```
+
+Add commas
+
+- stackoverflow
+  - javascript amount with commas
+  - new folder utils/
+    - format.js
+  - add to component Balance
+    - wrap the total value with numberWithCommas function
