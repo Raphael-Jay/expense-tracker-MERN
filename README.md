@@ -140,3 +140,29 @@ Add commas
     - format.js
   - add to component Balance
     - wrap the total value with numberWithCommas function
+
+Prepare for production
+
+- cd to client/
+  - npm run build
+- cd ..
+  - go back to server folder
+  - server.js
+    - run a route to the build folder from the client
+    - add path module
+    - below API route `app.use('/api/v1/transactions', transactions)`
+
+```
+if(process.env.NODE_ENV === 'production') {
+  app.use(express.static('client/dist'));
+  app.get('*', (req, res) => res.sendFile(path.resolve(__dirname, 'client', 'dist', 'index.html')));
+}
+```
+
+    - go to config.env
+      - set NODE_ENV=production
+    - then run for production
+      - npm start
+    - view from localhost:5000
+
+### Note: for vite build client/dist
