@@ -1,5 +1,13 @@
 Expense Tracker - MERN stack
 
+Create .env file
+
+```
+NODE_ENV = development
+PORT = 5000
+MONGO_URI = mongodb+srv://<username>:<password>@rjay.bjkbpzy.mongodb.net/<database>?retryWrites=true&w=majority
+```
+
 - move src to client/
 - from to root run `npm init`
 
