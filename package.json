@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "expense tracker - MERN stack",
   "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
     "client": "npm run dev --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm --force install --prefix frontend && npm run build --prefix frontend"
   },
   "repository": {
     "type": "git",
