@@ -1,6 +1,7 @@
 {
   "name": "expense-tracker-mern",
   "private": true,
+  "proxy": "https://secure-retreat-29561.herokuapp.com/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

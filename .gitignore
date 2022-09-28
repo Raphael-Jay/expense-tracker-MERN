@@ -27,4 +27,4 @@ dist-ssr
 .eslintcache
 
 # production
-/frontend/dist
+/client/dist
