@@ -1,5 +1,9 @@
 Expense Tracker - MERN stack
 
+<p align="center">
+  <img  height="350" src="screenshot.PNG">
+</p>
+
 Create .env file
 
 ```
