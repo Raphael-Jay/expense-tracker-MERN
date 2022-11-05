@@ -1,5 +1,10 @@
 Expense Tracker - MERN stack
 
+Demo site is [Expense-tracker](https://immense-anchorage-46904.herokuapp.com/)
+
+- React JS application with backend nodejs and mongodb database. 
+- Application of react hooks (useState, useContext, useReducer and context API)
+
 <p align="center">
   <img  height="350" src="screenshot.PNG">
 </p>
