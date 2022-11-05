@@ -1,4 +1,4 @@
-Expense Tracker - MERN stack
+# Expense Tracker - MERN stack
 
 Demo site is [Expense-tracker](https://immense-anchorage-46904.herokuapp.com/)
 
